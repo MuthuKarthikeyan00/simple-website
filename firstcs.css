@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  
+    font-family: Segoe -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    background: #6900d1;
+  
+}
+
+.a1{
+    font-size: 40px !important;
+    margin:0px 00px 10px  30px !important;
+    color: white;
+    font-weight:bold;
+    position: absolute;
+}
+.a:hover{
+    border-bottom:solid 2px white
+}
+
+#check{
+display: none;
+}
+
+ul{
+   
+    float: right;
+    list-style: none !important;
+    margin-right: 50px;
+    
+}
+li{
+   
+    display: inline-block;
+   margin:5px 25px 7px 15px;
+}
+
+.a{
+    color: white !important;
+    text-decoration:none;
+    font-size:20px;
+    list-style: none !important;
+ 
+}
+
+.ck-btn{
+    color: rgb(250, 248, 248);
+    font-size: 20px;
+    border: solid rgb(255, 254, 254) 1px;
+    float:right;
+    padding: 0px 10px;
+    background:transparent;
+    margin-right: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    display: none;
+    outline: rgb(245, 245, 245) solid 3px;
+}
+
+
+@media (max-width:756px) {
+    body{
+        overflow-x: hidden;
+    } 
+
+   
+.cc{
+    display: inline-block;
+    margin: 10px 30px 10px 10px;
+
+}
+
+
+
+
+.co1{
+ 
+    margin-bottom: 20px;
+    
+    width: 80% !important;
+    margin: auto;
+
+}
+
+.co1 img{
+    width: 50% !important;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 27% !important;
+     
+}
+
+.ro1 .contant{
+   
+    width: 100% !important;
+   text-align: center;
+    margin-left: 0px !important;
+}
+.ro1 .contant h2,p{
+   padding: 5px;
+}
+
+.ro1 .contant a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+
+
+   
+.cc2{
+    display: inline-block;
+    margin: 10px 30px 10px 10px;
+
+}
+
+
+
+
+.co2{
+ 
+    margin-bottom: 20px;
+   
+    width: 80% !important;
+    margin: auto;
+   
+
+}
+
+
+.co2 img{
+  
+        width: 50% ;
+        box-shadow: 0px 0px 10px 2px black;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40% !important;
+  
+            
+}
+
+
+
+.ro2 .contant{
+    width: 80% !important;
+    text-align: center !important;
+     margin-left:13% !important;
+ 
+}
+.ro2 .contant h2,p{
+   padding: 5px;
+}
+
+.ro2 .contant a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+
+
+
+    .ck-btn{
+       display: block;
+      
+    }
+
+    ul{
+        
+        position:absolute;
+        width: 100%;
+        height: 100vh;
+        background: #8305686c;
+        top:-103%;
+        border: solid 3px rgba(141, 11, 102, 0.527);
+        text-align: center;
+        transition: all .5s;
+        
+    }
+
+    li{
+        padding: 45px 0px;
+        display: block;
+
+    }
+  
+    #check:checked ~ .navbar ul
+    {
+        top: 0;
+        margin-top: 100px;
+      
+        }
+
+
+        #check:checked ~ .ck-btn{
+           
+            transform: rotate(-180deg);
+            transition: all .5s;
+         }
+     
+
+        #check:checked ~ .image{
+           margin-top: 670px;
+          
+            }
+        .a1{
+            font-size: 30px !important;
+            margin:0px 00px 10px  30px !important;
+            color: white;
+            font-weight:bold;
+            position: absolute;
+        }
+
+      
+    
+}
+.image img{
+    float: right;
+    width: 500px;
+    margin: 10px 10px 10px 10px;
+}
+
+.image{
+   
+    width: 100%;
+    margin-top: 100px;
+
+}
+.join{
+    
+    margin:90px 10px 200px 50px;
+    text-align: left;
+}
+.join h1{
+    color: blanchedalmond;
+    padding:10px 10px 30px 10px;
+    font-size: 60px;
+    
+    
+}
+.join p{
+    color: rgb(15, 10, 1);
+    padding:10px 10px 90px 10px;
+    font-size: 20px;
+    
+}
+
+.join a{
+    color: blanchedalmond;
+   color: black;
+    font-size: 20px;
+    background: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: rgb(252, 250, 250) solid 0.1px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background: #6900d1;
+    
+     
+
+}
+.express-btn{
+    background: white !important;
+   
+}
+.express-MORE:hover{
+    background: white !important;
+   
+}
+
+.mk{
+
+    text-align: center;
+    padding:70px 0px;
+}
+.mk h2{
+    padding:20px 0px;font-size: 30px;
+}
+.mk p{
+    padding:10px 0px;font-size: 20px;
+}
+.col img{
+    width: 50px;
+    
+}
+
+.col h2{
+    padding:20px 0px;
+    font-size: 30px;
+    
+}
+
+.col p{
+    padding:10px 0px;
+    
+}
+
+.col{
+
+    margin: 10px 53px;
+    padding:30px 10px;
+    height: 250px;
+
+
+}
+.col:hover{
+    background: #6900d1;
+    border-radius: 10px;
+    color: white;
+    border: rgb(92, 88, 88) solid 2px;
+    
+     transition: 1.5s all;
+}
+.row{
+    text-align: center;
+    margin: 0 0 50px 0px;
+}
+.row .col{
+    display: inline-block;   
+}
+
+
+.cc{
+    display: inline-block;
+    margin: 10px 30px 10px 10px;
+
+}
+
+
+
+
+.co1{
+         
+    text-align: center;
+    margin-bottom: 20px;
+  
+    width: 40%;
+  
+  
+
+}
+
+.co1 img{
+    width: 40%;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 460px;
+     
+}
+
+.ro1 .contant{
+   
+    width: 30%;
+   
+    margin-left: 150px;
+}
+.ro1 .contant h2,p{
+   padding: 5px;
+}
+
+.ro1 .contant a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+
+
+.cc2{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+
+}
+
+
+
+
+.co2{
+         
+    text-align: right;
+    margin-bottom: 20px;
+  
+    width: 40%;
+  
+  
+
+}
+
+.co2 img{
+    width: 40%;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin-right: 980px;
+     
+}
+
+.ro2 .contant{
+  
+    width: 40%;
+    text-align: right ;
+    margin-left: 200px ;
+}
+.ro2 .contant h2,p{
+   padding: 5px;
+}
+
+.ro2 .contant a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.ro2{
+    margin: 40px 0px;
+}
+
+
+
+footer{
+   text-align: center;
+   background: #6900d1;
+   color: white;
+   font-family:'Times New Roman', Times, serif;
+}
+.foot input{
+  border: none;
+  border-bottom:solid white 1px ;
+  background: transparent;
+  text-align: center;
+  width: 50%;
+  margin: 50px 0px 0 0;
+  color: white;
+  outline: none;
+  padding: 10px;
+
+}
+.foot h2{
+    padding: 35px 0 0 0;
+    font-size: 30px;
+}
+
+.foot button{
+    margin: 10px 0px 10px 0;
+    background: #6900d1;
+    border: none;
+    color: white;
+    padding: 10px;
+    border: solid white 2px;
+}
+.foot p{
+    padding: 25px 0 30px 0;
+}
+
+
+
+@media (max-width:1200px) {
+    
+.cc{
+    display: inline-block;
+    margin: 10px 30px 10px 10px;
+
+}
+.join a{
+    color: blanchedalmond;
+   color: black;
+    font-size: 15px;
+    background: white;
+   
+    border: rgb(252, 250, 250) solid 0.1px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+    background: #6900d1;
+    
+     
+}
+
+
+
+
+.co1{
+         
+    text-align: center;
+    margin-bottom: 20px;
+  
+    width: 40%;
+  
+  
+
+}
+
+.co1 img{
+    width: 50%;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 200px;
+     
+}
+
+.ro1 .contant{
+   
+    width: 30%;
+   
+    margin-left: 100px;
+}
+.ro1 .contant h2,p{
+   padding: 5px;
+}
+
+.ro1 .contant a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 2px black;
+}
+  
+
+
+
+.cc2{
+    display: inline-block;
+    margin: 10px 30px 10px 10px;
+
+}
+
+
+
+
+.co2{
+         
+    text-align: center;
+    margin-bottom: 20px;
+  
+    width: 40%;
+  
+  
+
+}
+
+.co2 img{
+    width: 50%;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin-left: 200px;
+     
+}
+
+.ro2 .contant{
+   
+    width: 30%;
+   
+    margin-left: 100px;
+}
+.ro2 .contant h2,p{
+   padding: 5px;
+}
+
+.ro2 .contant a{
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 2px black;
+}
+  
+   
+
+   
+}
